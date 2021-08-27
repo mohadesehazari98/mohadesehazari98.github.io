@@ -46,7 +46,7 @@ $(document).ready(function () {
             alphaArea: '.6',
         },
         scaleK: {
-            labels: ['Python', 'Matlab', 'Arduino', 'Html', 'Verilog', <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span></p>, 'Qiskit'],
+            labels: ['Python', 'Matlab', 'Arduino', 'Html', 'Verilog', 'LaTeX', 'Qiskit'],
             item: {
                 fontColor: white,
                 rules: [{
@@ -74,7 +74,7 @@ $(document).ready(function () {
             }
         },
         series: [{
-            values: [70, 70, 40, 50, 30, 70, 60],
+            values: [70, 70, 50, 60, 70, 60, 60],
             backgroundColor: lightRed,
             lineColor: lightRed,
             legendItem: {
