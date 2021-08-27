@@ -1,5 +1,25 @@
 $(document).ready(function () {
     /* Home Section - btnContact transition content */
+    .tex sub, .latex sub, .latex sup {
+      text-transform: uppercase;
+    }
+
+    .tex sub, .latex sub {
+      vertical-align: -0.5ex;
+      margin-left: -0.1667em;
+      margin-right: -0.125em;
+    }
+
+    .tex, .latex, .tex sub, .latex sub {
+      font-size: 1em;
+    }
+
+    .latex sup {
+      font-size: 0.85em;
+      vertical-align: 0.15em;
+      margin-left: -0.36em;
+      margin-right: -0.15em;
+    }
     $('#btnContact').hover(function () {
         $(this).text('joeylenerivera@gmail.com');
     }, function () {
@@ -26,7 +46,7 @@ $(document).ready(function () {
             alphaArea: '.6',
         },
         scaleK: {
-            labels: ['HTML & CSS', 'JavaScript', 'Java', 'Laravel', 'CodeIgniter', 'MySQL', 'PHP'],
+            labels: ['Python', 'Matlab', 'Arduino', 'Html', 'Verilog', <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span></p>, 'Qiskit'],
             item: {
                 fontColor: white,
                 rules: [{
