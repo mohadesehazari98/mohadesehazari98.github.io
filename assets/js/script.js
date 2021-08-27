@@ -46,7 +46,7 @@ $(document).ready(function () {
             alphaArea: '.6',
         },
         scaleK: {
-            labels: ['Python', 'Matlab', 'Arduino', 'Html', 'Verilog', 'LaTeX', 'Qiskit'],
+            labels: ['HTML & CSS', 'JavaScript', 'Java', 'Laravel', 'CodeIgniter', 'MySQL', 'PHP'],
             item: {
                 fontColor: white,
                 rules: [{
