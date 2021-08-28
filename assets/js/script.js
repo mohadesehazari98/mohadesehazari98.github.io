@@ -84,7 +84,7 @@ $(document).ready(function () {
     }
 
     zingchart.render({
-        id: 'chartSkill',
+        id: 'chartSkills',
         data: chartSkillsData,
         height: '100%',
         width: '100%'
