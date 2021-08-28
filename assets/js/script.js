@@ -46,7 +46,7 @@ $(document).ready(function () {
             alphaArea: '.6',
         },
         scaleK: {
-            labels: ['HTML & CSS', 'JavaScript', 'Java', 'Laravel', 'CodeIgniter', 'MySQL', 'PHP'],
+            labels: ['Python', 'Matlab', 'Arduino', 'Html', 'Verilog', 'LaTeX', 'Qiskit'],
             item: {
                 fontColor: white,
                 rules: [{
@@ -84,7 +84,7 @@ $(document).ready(function () {
     }
 
     zingchart.render({
-        id: 'chartSkill',
+        id: 'chartSkills',
         data: chartSkillsData,
         height: '100%',
         width: '100%'
