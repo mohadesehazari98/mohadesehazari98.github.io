@@ -1,8 +1,6 @@
-# FCC Personal Portfolio | Joeylene Rivera
+# My Personal Website
 
-A personal portfolio made as a requirement of the Free Code Camp's Front End Development Course.
-
-![alt text](assets/img/portfolio.png "FCC Personal Portfolio | Joeylene Rivera")
+Credit : Joeylene Rivera / Visit : https://github.com/jorenrui
 
 ## Third Party Sources - Technologies
 
